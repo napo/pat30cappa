@@ -1,13 +1,17 @@
-function mappa(idcomune) {
-    idcomune = '022251'
+
+function mappa(inidistat) {
+    sidebar.close();
+    map.removeLayer(comune);
+    comune = new L.geoJson();
+    comune.addTo(map);
     $.ajax({
         dataType: "json",
-        url: "data/areas30km/" + idcomune + ".geojson",
+        url: "data/areas30km/" + inidistat + ".geojson",
         success: function(data) {
             $(data.features).each(function(key, data) {
                 comune.addData(data);
             });
-            comune.setStyle(stileConfini);
+            comune.setStyle(stileComune);
             map.fitBounds(comune.getBounds());
             map.addLayer(comune);
         },
@@ -36,7 +40,8 @@ $(document).ready(function() {
 					idistat = idistat.padStart(6, "0");
 					abitanti = parseFloat(values[1]);
 					if (parseFloat(values[1]) <= 5000) { 
-                        data = '<a href="#" onclick="mappa(' + "'" + '02205' + "'" + ');return false;">vedi</a>'
+                    //data = '<a href="?id='+idistat+'">vedi</a>'
+                        data = '<a href="#" onclick="mappa(\'' + idistat +'\');return false;">' + idistat + '</a>'
                     } else {
 						data = ''
 					}
@@ -51,6 +56,37 @@ $(document).ready(function() {
 // standard leaflet map setup
 var map = L.map('map');
 map.setView([46.0199, 11.2198], 10);
+
+var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  });
+
+  var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
+    maxZoom: 13,
+    attribution: 'Layer topografici <a target="_blank" href="https://stamen.com/">Stamen Design</a> e &copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  });
+  stamen.addTo(map);
+
+  map.on("zoomend", function (e) {
+    if (map.getZoom() > 13) { //Level 13 is the treshold
+      var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19
+      });
+
+      map.removeLayer(osm);
+      osm.addTo(map);
+    } else {
+      var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
+        maxZoom: 13
+      });
+
+      map.removeLayer(stamen);
+      stamen.addTo(map);
+    }
+  });
+
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
     attribution: 'Map data &copy; OpenStreetMap contributors'
@@ -88,6 +124,14 @@ const stileConfini = {
     "opacity": 1,
     "fill": true,
     "fillOpacity": 0.2
+  };
+
+  const stileComune = {
+    "color": "#ff7800",
+    "weight": 1,
+    "opacity": 1,
+    "fill": true,
+    "fillOpacity": 0.25
   };
 
 var comune = new L.geoJson();
