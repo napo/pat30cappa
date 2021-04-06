@@ -1,0 +1,1024 @@
+{ "data":[
+ {
+   "MAPPA": "22002_1490",
+   "COMUNE": "Albiano",
+   "ABITANTI": 1490,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 9.96
+ },
+ {
+   "MAPPA": "22003_3170",
+   "COMUNE": "Aldeno",
+   "ABITANTI": 3170,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 8.97
+ },
+ {
+   "MAPPA": "22235_1611",
+   "COMUNE": "Altavalle",
+   "ABITANTI": 1611,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 33.55
+ },
+ {
+   "MAPPA": "22237_543",
+   "COMUNE": "Amblar-Don",
+   "ABITANTI": 543,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 19.96
+ },
+ {
+   "MAPPA": "22005_1129",
+   "COMUNE": "Andalo",
+   "ABITANTI": 1129,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 11.38
+ },
+ {
+   "MAPPA": "22007_4117",
+   "COMUNE": "Avio",
+   "ABITANTI": 4117,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 68.89
+ },
+ {
+   "MAPPA": "22011_1483",
+   "COMUNE": "Bedollo",
+   "ABITANTI": 1483,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 27.46
+ },
+ {
+   "MAPPA": "22013_2718",
+   "COMUNE": "Besenello",
+   "ABITANTI": 2718,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 25.94
+ },
+ {
+   "MAPPA": "22015_435",
+   "COMUNE": "Bieno",
+   "ABITANTI": 435,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 11.71
+ },
+ {
+   "MAPPA": "22017_1546",
+   "COMUNE": "Bleggio Superiore",
+   "ABITANTI": 1546,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 32.67
+ },
+ {
+   "MAPPA": "22018_387",
+   "COMUNE": "Bocenago",
+   "ABITANTI": 387,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 8.45
+ },
+ {
+   "MAPPA": "22021_660",
+   "COMUNE": "Bondone",
+   "ABITANTI": 660,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 19.18
+ },
+ {
+   "MAPPA": "22238_2006",
+   "COMUNE": "Borgo Chiese",
+   "ABITANTI": 2006,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 53.71
+ },
+ {
+   "MAPPA": "22252_2478",
+   "COMUNE": "Borgo d'Anaunia",
+   "ABITANTI": 2478,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 63.23
+ },
+ {
+   "MAPPA": "22239_718",
+   "COMUNE": "Borgo Lares",
+   "ABITANTI": 718,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 22.62
+ },
+ {
+   "MAPPA": "22025_4026",
+   "COMUNE": "Brentonico",
+   "ABITANTI": 4026,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 62.74
+ },
+ {
+   "MAPPA": "22026_257",
+   "COMUNE": "Bresimo",
+   "ABITANTI": 257,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 41.01
+ },
+ {
+   "MAPPA": "22029_684",
+   "COMUNE": "Caderzone Terme",
+   "ABITANTI": 684,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 18.61
+ },
+ {
+   "MAPPA": "22032_1364",
+   "COMUNE": "Calceranica al Lago",
+   "ABITANTI": 1364,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 3.39
+ },
+ {
+   "MAPPA": "22033_1108",
+   "COMUNE": "Caldes",
+   "ABITANTI": 1108,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 20.81
+ },
+ {
+   "MAPPA": "22034_3866",
+   "COMUNE": "Caldonazzo",
+   "ABITANTI": 3866,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 21.41
+ },
+ {
+   "MAPPA": "22035_1996",
+   "COMUNE": "Calliano",
+   "ABITANTI": 1996,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 10.2
+ },
+ {
+   "MAPPA": "22036_716",
+   "COMUNE": "Campitello di Fassa",
+   "ABITANTI": 716,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 25.02
+ },
+ {
+   "MAPPA": "22037_1501",
+   "COMUNE": "Campodenno",
+   "ABITANTI": 1501,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 25.02
+ },
+ {
+   "MAPPA": "22038_1481",
+   "COMUNE": "Canal San Bovo",
+   "ABITANTI": 1481,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 125.68
+ },
+ {
+   "MAPPA": "22039_1898",
+   "COMUNE": "Canazei",
+   "ABITANTI": 1898,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 67.02
+ },
+ {
+   "MAPPA": "22040_587",
+   "COMUNE": "Capriana",
+   "ABITANTI": 587,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 12.82
+ },
+ {
+   "MAPPA": "22042_962",
+   "COMUNE": "Carisolo",
+   "ABITANTI": 962,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 25.12
+ },
+ {
+   "MAPPA": "22043_523",
+   "COMUNE": "Carzano",
+   "ABITANTI": 523,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 1.82
+ },
+ {
+   "MAPPA": "22045_224",
+   "COMUNE": "Castel Condino",
+   "ABITANTI": 224,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 11.1
+ },
+ {
+   "MAPPA": "22240_3309",
+   "COMUNE": "Castel Ivano",
+   "ABITANTI": 3309,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 34.82
+ },
+ {
+   "MAPPA": "22048_1197",
+   "COMUNE": "Castello Tesino",
+   "ABITANTI": 1197,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 112.83
+ },
+ {
+   "MAPPA": "22047_2328",
+   "COMUNE": "Castello-Molina di Fiemme",
+   "ABITANTI": 2328,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 54.56
+ },
+ {
+   "MAPPA": "22049_1060",
+   "COMUNE": "Castelnuovo",
+   "ABITANTI": 1060,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 13.14
+ },
+ {
+   "MAPPA": "22050_4133",
+   "COMUNE": "Cavalese",
+   "ABITANTI": 4133,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 45.38
+ },
+ {
+   "MAPPA": "22051_1119",
+   "COMUNE": "Cavareno",
+   "ABITANTI": 1119,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 9.48
+ },
+ {
+   "MAPPA": "22052_546",
+   "COMUNE": "Cavedago",
+   "ABITANTI": 546,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 10.03
+ },
+ {
+   "MAPPA": "22053_3020",
+   "COMUNE": "Cavedine",
+   "ABITANTI": 3020,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 38.23
+ },
+ {
+   "MAPPA": "22054_235",
+   "COMUNE": "Cavizzana",
+   "ABITANTI": 235,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 3.38
+ },
+ {
+   "MAPPA": "22241_2306",
+   "COMUNE": "Cembra Lisignago",
+   "ABITANTI": 2306,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 24.11
+ },
+ {
+   "MAPPA": "22058_697",
+   "COMUNE": "Cimone",
+   "ABITANTI": 697,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 9.81
+ },
+ {
+   "MAPPA": "22059_353",
+   "COMUNE": "Cinte Tesino",
+   "ABITANTI": 353,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 30.3
+ },
+ {
+   "MAPPA": "22060_311",
+   "COMUNE": "Cis",
+   "ABITANTI": 311,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 5.5
+ },
+ {
+   "MAPPA": "22061_4036",
+   "COMUNE": "Civezzano",
+   "ABITANTI": 4036,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 15.67
+ },
+ {
+   "MAPPA": "22228_2935",
+   "COMUNE": "Comano Terme",
+   "ABITANTI": 2935,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 68.11
+ },
+ {
+   "MAPPA": "22064_994",
+   "COMUNE": "Commezzadura",
+   "ABITANTI": 994,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 22.02
+ },
+ {
+   "MAPPA": "22242_1392",
+   "COMUNE": "Contà",
+   "ABITANTI": 1392,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 19.47
+ },
+ {
+   "MAPPA": "22068_680",
+   "COMUNE": "Croviana",
+   "ABITANTI": 680,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 4.99
+ },
+ {
+   "MAPPA": "22071_428",
+   "COMUNE": "Dambel",
+   "ABITANTI": 428,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 5.15
+ },
+ {
+   "MAPPA": "22074_1230",
+   "COMUNE": "Denno",
+   "ABITANTI": 1230,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 10.64
+ },
+ {
+   "MAPPA": "22233_2108",
+   "COMUNE": "Dimaro Folgarida",
+   "ABITANTI": 2108,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 36.53
+ },
+ {
+   "MAPPA": "22078_586",
+   "COMUNE": "Drena",
+   "ABITANTI": 586,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 8.34
+ },
+ {
+   "MAPPA": "22081_908",
+   "COMUNE": "Fai della Paganella",
+   "ABITANTI": 908,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 12.13
+ },
+ {
+   "MAPPA": "22083_1069",
+   "COMUNE": "Fiavè",
+   "ABITANTI": 1069,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 24.28
+ },
+ {
+   "MAPPA": "22085_494",
+   "COMUNE": "Fierozzo",
+   "ABITANTI": 494,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 17.94
+ },
+ {
+   "MAPPA": "22087_3168",
+   "COMUNE": "Folgaria",
+   "ABITANTI": 3168,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 71.63
+ },
+ {
+   "MAPPA": "22089_1319",
+   "COMUNE": "Fornace",
+   "ABITANTI": 1319,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 7.22
+ },
+ {
+   "MAPPA": "22090_342",
+   "COMUNE": "Frassilongo",
+   "ABITANTI": 342,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 16.68
+ },
+ {
+   "MAPPA": "22091_401",
+   "COMUNE": "Garniga Terme",
+   "ABITANTI": 401,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 13.13
+ },
+ {
+   "MAPPA": "22092_2556",
+   "COMUNE": "Giovo",
+   "ABITANTI": 2556,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 20.81
+ },
+ {
+   "MAPPA": "22093_742",
+   "COMUNE": "Giustino",
+   "ABITANTI": 742,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 39.39
+ },
+ {
+   "MAPPA": "22095_2137",
+   "COMUNE": "Grigno",
+   "ABITANTI": 2137,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 46.38
+ },
+ {
+   "MAPPA": "22097_1165",
+   "COMUNE": "Imer",
+   "ABITANTI": 1165,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 27.73
+ },
+ {
+   "MAPPA": "22098_2768",
+   "COMUNE": "Isera",
+   "ABITANTI": 2768,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 14.09
+ },
+ {
+   "MAPPA": "22102_1180",
+   "COMUNE": "Lavarone",
+   "ABITANTI": 1180,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 26.31
+ },
+ {
+   "MAPPA": "22106_805",
+   "COMUNE": "Livo",
+   "ABITANTI": 805,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 15.22
+ },
+ {
+   "MAPPA": "22108_875",
+   "COMUNE": "Lona-Lases",
+   "ABITANTI": 875,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 11.37
+ },
+ {
+   "MAPPA": "22109_263",
+   "COMUNE": "Luserna",
+   "ABITANTI": 263,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 8.2
+ },
+ {
+   "MAPPA": "22243_2905",
+   "COMUNE": "Madruzzo",
+   "ABITANTI": 2905,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 28.93
+ },
+ {
+   "MAPPA": "22110_2231",
+   "COMUNE": "Malé",
+   "ABITANTI": 2231,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 26.53
+ },
+ {
+   "MAPPA": "22112_141",
+   "COMUNE": "Massimeno",
+   "ABITANTI": 141,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 21.03
+ },
+ {
+   "MAPPA": "22113_587",
+   "COMUNE": "Mazzin",
+   "ABITANTI": 587,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 23.63
+ },
+ {
+   "MAPPA": "22114_897",
+   "COMUNE": "Mezzana",
+   "ABITANTI": 897,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 27.35
+ },
+ {
+   "MAPPA": "22115_1608",
+   "COMUNE": "Mezzano",
+   "ABITANTI": 1608,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 48.85
+ },
+ {
+   "MAPPA": "22118_2650",
+   "COMUNE": "Moena",
+   "ABITANTI": 2650,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 82.59
+ },
+ {
+   "MAPPA": "22120_1116",
+   "COMUNE": "Molveno",
+   "ABITANTI": 1116,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 34.12
+ },
+ {
+   "MAPPA": "22124_2842",
+   "COMUNE": "Nago-Torbole",
+   "ABITANTI": 2842,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 28.38
+ },
+ {
+   "MAPPA": "22127_2084",
+   "COMUNE": "Nogaredo",
+   "ABITANTI": 2084,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 3.61
+ },
+ {
+   "MAPPA": "22128_1356",
+   "COMUNE": "Nomi",
+   "ABITANTI": 1356,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 6.49
+ },
+ {
+   "MAPPA": "22129_1106",
+   "COMUNE": "Novaledo",
+   "ABITANTI": 1106,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 7.97
+ },
+ {
+   "MAPPA": "22253_3612",
+   "COMUNE": "Novella",
+   "ABITANTI": 3612,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 46.59
+ },
+ {
+   "MAPPA": "22130_795",
+   "COMUNE": "Ospedaletto",
+   "ABITANTI": 795,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 16.75
+ },
+ {
+   "MAPPA": "22131_840",
+   "COMUNE": "Ossana",
+   "ABITANTI": 840,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 25.25
+ },
+ {
+   "MAPPA": "22133_165",
+   "COMUNE": "Palù del Fersina",
+   "ABITANTI": 165,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 16.65
+ },
+ {
+   "MAPPA": "22134_837",
+   "COMUNE": "Panchià",
+   "ABITANTI": 837,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 20.21
+ },
+ {
+   "MAPPA": "22136_1843",
+   "COMUNE": "Peio",
+   "ABITANTI": 1843,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 162.3
+ },
+ {
+   "MAPPA": "22137_790",
+   "COMUNE": "Pellizzano",
+   "ABITANTI": 790,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 48.36
+ },
+ {
+   "MAPPA": "22138_400",
+   "COMUNE": "Pelugo",
+   "ABITANTI": 400,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 22.98
+ },
+ {
+   "MAPPA": "22234_1435",
+   "COMUNE": "Pieve di Bono-Prezzo",
+   "ABITANTI": 1435,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 24.68
+ },
+ {
+   "MAPPA": "22142_645",
+   "COMUNE": "Pieve Tesino",
+   "ABITANTI": 645,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 69.23
+ },
+ {
+   "MAPPA": "22143_3055",
+   "COMUNE": "Pinzolo",
+   "ABITANTI": 3055,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 69.32
+ },
+ {
+   "MAPPA": "22144_2461",
+   "COMUNE": "Pomarolo",
+   "ABITANTI": 2461,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 9.23
+ },
+ {
+   "MAPPA": "22244_1793",
+   "COMUNE": "Porte di Rendena",
+   "ABITANTI": 1793,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 40.71
+ },
+ {
+   "MAPPA": "22147_4523",
+   "COMUNE": "Predazzo",
+   "ABITANTI": 4523,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 109.96
+ },
+ {
+   "MAPPA": "22150_1343",
+   "COMUNE": "Rabbi",
+   "ABITANTI": 1343,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 132.79
+ },
+ {
+   "MAPPA": "22155_1409",
+   "COMUNE": "Romeno",
+   "ABITANTI": 1409,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 9.13
+ },
+ {
+   "MAPPA": "22156_2886",
+   "COMUNE": "Roncegno Terme",
+   "ABITANTI": 2886,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 38.08
+ },
+ {
+   "MAPPA": "22157_463",
+   "COMUNE": "Ronchi Valsugana",
+   "ABITANTI": 463,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 10
+ },
+ {
+   "MAPPA": "22135_1002",
+   "COMUNE": "Ronzo-Chienis",
+   "ABITANTI": 1002,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 13.21
+ },
+ {
+   "MAPPA": "22159_438",
+   "COMUNE": "Ronzone",
+   "ABITANTI": 438,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 5.3
+ },
+ {
+   "MAPPA": "22160_1652",
+   "COMUNE": "Roverè della Luna",
+   "ABITANTI": 1652,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 10.41
+ },
+ {
+   "MAPPA": "22162_412",
+   "COMUNE": "Ruffrè-Mendola",
+   "ABITANTI": 412,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 6.58
+ },
+ {
+   "MAPPA": "22163_809",
+   "COMUNE": "Rumo",
+   "ABITANTI": 809,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 30.85
+ },
+ {
+   "MAPPA": "22164_181",
+   "COMUNE": "Sagron Mis",
+   "ABITANTI": 181,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 11.06
+ },
+ {
+   "MAPPA": "22165_559",
+   "COMUNE": "Samone",
+   "ABITANTI": 559,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 4.9
+ },
+ {
+   "MAPPA": "22250_3591",
+   "COMUNE": "San Giovanni di Fassa",
+   "ABITANTI": 3591,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 99.82
+ },
+ {
+   "MAPPA": "22231_1577",
+   "COMUNE": "San Lorenzo Dorsino",
+   "ABITANTI": 1577,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 73.91
+ },
+ {
+   "MAPPA": "22167_3268",
+   "COMUNE": "San Michele all'Adige",
+   "ABITANTI": 3268,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 16
+ },
+ {
+   "MAPPA": "22168_1133",
+   "COMUNE": "Sant'Orsola Terme",
+   "ABITANTI": 1133,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 15.36
+ },
+ {
+   "MAPPA": "22169_912",
+   "COMUNE": "Sanzeno",
+   "ABITANTI": 912,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 7.87
+ },
+ {
+   "MAPPA": "22170_795",
+   "COMUNE": "Sarnonico",
+   "ABITANTI": 795,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 12.19
+ },
+ {
+   "MAPPA": "22171_1410",
+   "COMUNE": "Scurelle",
+   "ABITANTI": 1410,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 30
+ },
+ {
+   "MAPPA": "22172_1432",
+   "COMUNE": "Segonzano",
+   "ABITANTI": 1432,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 20.71
+ },
+ {
+   "MAPPA": "22246_2914",
+   "COMUNE": "Sella Giudicarie",
+   "ABITANTI": 2914,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 85.76
+ },
+ {
+   "MAPPA": "22173_377",
+   "COMUNE": "Sfruz",
+   "ABITANTI": 377,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 11.81
+ },
+ {
+   "MAPPA": "22176_689",
+   "COMUNE": "Soraga di Fassa",
+   "ABITANTI": 689,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 19.74
+ },
+ {
+   "MAPPA": "22177_807",
+   "COMUNE": "Sover",
+   "ABITANTI": 807,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 14.82
+ },
+ {
+   "MAPPA": "22179_1254",
+   "COMUNE": "Spiazzo",
+   "ABITANTI": 1254,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 71.06
+ },
+ {
+   "MAPPA": "22180_1265",
+   "COMUNE": "Spormaggiore",
+   "ABITANTI": 1265,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 30.2
+ },
+ {
+   "MAPPA": "22181_705",
+   "COMUNE": "Sporminore",
+   "ABITANTI": 705,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 17.47
+ },
+ {
+   "MAPPA": "22182_1207",
+   "COMUNE": "Stenico",
+   "ABITANTI": 1207,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 49.15
+ },
+ {
+   "MAPPA": "22183_4583",
+   "COMUNE": "Storo",
+   "ABITANTI": 4583,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 62.93
+ },
+ {
+   "MAPPA": "22184_587",
+   "COMUNE": "Strembo",
+   "ABITANTI": 587,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 38.33
+ },
+ {
+   "MAPPA": "22188_1930",
+   "COMUNE": "Telve",
+   "ABITANTI": 1930,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 64.75
+ },
+ {
+   "MAPPA": "22189_591",
+   "COMUNE": "Telve di Sopra",
+   "ABITANTI": 591,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 17.72
+ },
+ {
+   "MAPPA": "22190_1053",
+   "COMUNE": "Tenna",
+   "ABITANTI": 1053,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 3.11
+ },
+ {
+   "MAPPA": "22191_2006",
+   "COMUNE": "Tenno",
+   "ABITANTI": 2006,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 28.3
+ },
+ {
+   "MAPPA": "22193_710",
+   "COMUNE": "Terragnolo",
+   "ABITANTI": 710,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 39.57
+ },
+ {
+   "MAPPA": "22251_3063",
+   "COMUNE": "Terre d'Adige",
+   "ABITANTI": 3063,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 16.58
+ },
+ {
+   "MAPPA": "22195_650",
+   "COMUNE": "Terzolas",
+   "ABITANTI": 650,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 5.59
+ },
+ {
+   "MAPPA": "22196_2966",
+   "COMUNE": "Tesero",
+   "ABITANTI": 2966,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 50.55
+ },
+ {
+   "MAPPA": "22199_3670",
+   "COMUNE": "Tione di Trento",
+   "ABITANTI": 3670,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 33.45
+ },
+ {
+   "MAPPA": "22200_1322",
+   "COMUNE": "Ton",
+   "ABITANTI": 1322,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 26.28
+ },
+ {
+   "MAPPA": "22202_686",
+   "COMUNE": "Torcegno",
+   "ABITANTI": 686,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 15.19
+ },
+ {
+   "MAPPA": "22203_1479",
+   "COMUNE": "Trambileno",
+   "ABITANTI": 1479,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 50.7
+ },
+ {
+   "MAPPA": "22247_1404",
+   "COMUNE": "Tre Ville",
+   "ABITANTI": 1404,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 81.49
+ },
+ {
+   "MAPPA": "22232_1166",
+   "COMUNE": "Valdaone",
+   "ABITANTI": 1166,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 177.08
+ },
+ {
+   "MAPPA": "22209_466",
+   "COMUNE": "Valfloriana",
+   "ABITANTI": 466,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 39.33
+ },
+ {
+   "MAPPA": "22210_1368",
+   "COMUNE": "Vallarsa",
+   "ABITANTI": 1368,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 77.86
+ },
+ {
+   "MAPPA": "22213_1824",
+   "COMUNE": "Vermiglio",
+   "ABITANTI": 1824,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 95.63
+ },
+ {
+   "MAPPA": "22216_175",
+   "COMUNE": "Vignola-Falesina",
+   "ABITANTI": 175,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 11.95
+ },
+ {
+   "MAPPA": "22222_3787",
+   "COMUNE": "Villa Lagarina",
+   "ABITANTI": 3787,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 24.13
+ },
+ {
+   "MAPPA": "22249_4824",
+   "COMUNE": "Ville d'Anaunia",
+   "ABITANTI": 4824,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 89.13
+ },
+ {
+   "MAPPA": "22254_2584",
+   "COMUNE": "Ville di Fiemme",
+   "ABITANTI": 2584,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 46.15
+ },
+ {
+   "MAPPA": "22224_3031",
+   "COMUNE": "Volano",
+   "ABITANTI": 3031,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 10.74
+ },
+ {
+   "MAPPA": "22226_1778",
+   "COMUNE": "Ziano di Fiemme",
+   "ABITANTI": 1778,
+   "PROV": "TN",
+   "SUPERFICIE (km²)": 35.75
+ }
+ ]}
