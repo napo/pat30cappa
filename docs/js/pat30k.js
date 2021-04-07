@@ -70,7 +70,14 @@ $(document).ready(function() {
 
 
 // standard leaflet map setup
-var map = L.map('map');
+var map = L.map('map', {
+    maxZoom: 18,
+    minZoom: 9,
+    maxBound: [[
+        [46.6701718034738, 13.716430664062502],
+        [45.54675503088241, 8.640747070312502 ]]
+    ]
+});
 map.setView([46.0199, 11.2198], 10);
 map.zoomControl.setPosition('topright');
 
@@ -78,12 +85,7 @@ L.tileLayer('https://tile.jawg.io/{z}/{x}/{y}.png?api-key=community', {
     maxZoom: 18,
     attribution: 'Tiles courtesy of [[https://www.jawg.io/|jawgmaps]] - Map data [[http://osm.org/copyright/|&copy; OpenStreetMap contributors]], under ODbL.'
 }).addTo(map);
-/*
-map.fitBounds([
-    [46.54847214853457, 12.746887207031252],
-    [45.64380813508572, 9.330139160156252]
-]);
-*/
+
 //var hash = new L.Hash(map);
 L.control.scale({ 'position': 'bottomright' }).addTo(map);
 //L.control.measureControl().addTo(map);
