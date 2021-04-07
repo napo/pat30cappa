@@ -1,3 +1,10 @@
+function onEachFeature(feature, layer) {
+    layer.bindPopup()
+    layer.on('click', (a) => {
+      layer.bindPopup('In <span style="color:#ff7800">arancione</span>, l\'area in cui sono consentiti spostamenti, nei giorni <b>28, 29, 30 dicembre 2020</b> e <b>4 gennaio 2021</b>, per i residenti nel comune di <b><span style="color:#FF0000">' + feature.properties.COMUNE + '</span></b> (<a href="https://www.gazzettaufficiale.it/eli/id/2020/12/18/20G00196/s" target="_blank">decreto legge 172</a>)')
+    });
+
+  }
 function mappa(inidistat) {
     sidebar.close();
     map.removeLayer(comune);
@@ -14,6 +21,7 @@ function mappa(inidistat) {
     crosstn = 0;
     crossbz = 0;
     crossbl = 0;
+    crossvr = 0;
     $.ajax({
             dataType: "json",
             url: "data/areas30km/" + inidistat + ".geojson",
@@ -22,10 +30,12 @@ function mappa(inidistat) {
                     crosstn = data.properties.CROSSTN;
                     crossbz = data.properties.CROSSBZ;
                     crossbl = data.properties.CROSSBL;
+                    crossvr = data.properties.CROSSVR;
                     comune.addData(data);
                 });
                 comune.setStyle(stileComune);
                 map.fitBounds(comune.getBounds());
+
                 map.addLayer(comune);
                 if (crosstn == 1) {
                     map.addLayer(confini_trento);
@@ -63,6 +73,7 @@ function mappa(inidistat) {
 $(document).ready(function() {
     $('#table_comuni').DataTable({
         "autoWidth": true,
+        "order": [[ 1, "asc" ]],
         "ajax": "data/comuni.json",
         "columns": [
             { "data": "MAPPA" },
