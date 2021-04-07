@@ -41,7 +41,7 @@ $(document).ready(function() {
 					abitanti = parseFloat(values[1]);
 					if (parseFloat(values[1]) <= 5000) { 
                     //data = '<a href="?id='+idistat+'">vedi</a>'
-                        data = '<a href="#" onclick="mappa(\'' + idistat +'\');return false;">' + idistat + '</a>'
+                        data = '<a href="#" onclick="mappa(\'' + idistat +'\');return false;">vedi</a>'
                     } else {
 						data = ''
 					}
@@ -56,65 +56,32 @@ $(document).ready(function() {
 // standard leaflet map setup
 var map = L.map('map');
 map.setView([46.0199, 11.2198], 10);
+map.zoomControl.setPosition('topright');
 
-var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  });
-
-  var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
-    maxZoom: 13,
-    attribution: 'Layer topografici <a target="_blank" href="https://stamen.com/">Stamen Design</a> e &copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  });
-  stamen.addTo(map);
-
-  map.on("zoomend", function (e) {
-    if (map.getZoom() > 13) { //Level 13 is the treshold
-      var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19
-      });
-
-      map.removeLayer(osm);
-      osm.addTo(map);
-    } else {
-      var stamen = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', {
-        maxZoom: 13
-      });
-
-      map.removeLayer(stamen);
-      stamen.addTo(map);
-    }
-  });
-
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+L.tileLayer('https://tile.jawg.io/{z}/{x}/{y}.png?api-key=community', {
     maxZoom: 18,
-    attribution: 'Map data &copy; OpenStreetMap contributors'
+    attribution: 'Tiles courtesy of [[https://www.jawg.io/|jawgmaps]] - Map data [[http://osm.org/copyright/|&copy; OpenStreetMap contributors]], under ODbL.'
 }).addTo(map);
-
 /*
-var corner1 = L.latLng(46.54847214853457, 12.746887207031252);
-var corner2 = L.latLng(45.64380813508572, 9.330139160156252);
-var bounds = L.latLngBounds(corner1, corner2);
-
-map.fitBounds(bounds);
-*/
 map.fitBounds([
     [46.54847214853457, 12.746887207031252],
     [45.64380813508572, 9.330139160156252]
 ]);
-
-var hash = new L.Hash(map);
-L.control.scale().addTo(map);
+*/
+//var hash = new L.Hash(map);
+L.control.scale({'position':'bottomright'}).addTo(map);
 //L.control.measureControl().addTo(map);
 var sidebar = L.control.sidebar({
     container: 'sidebar'
 }).addTo(map).open('list');
 const stileConfini = {
-    "color": "#000000",
+    "linecap": 'square',
+    "lineJoin": "square",
+    "color": "#b434eb",
     "weight": 2,
     "opacity": 1,
     "dashArray": '5,10',
+    "dashOffset": "10",
     "fill": false,
     "fillOpacity": 0
   };
@@ -139,8 +106,7 @@ comune.addTo(map);
 var confini_pat = new L.geoJson();
 confini_pat.addTo(map);
 var confini_trento = new L.geoJson();
-//confini_trento.addTo(map);
-
+confini_trento.addTo(map);
 
 
 $.ajax({
@@ -165,6 +131,7 @@ $.ajax({
         $(data.features).each(function(key, data) {
             confini_trento.addData(data);
         });
-        confini_trento.setStyle(stileConfiniTrento);
+        confini_trento.setStyle(stileConfini);
+        map.removeLayer(confini_trento);
     }
     }) //.error(function(data) {console.log("errore")});

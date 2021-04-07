@@ -24,9 +24,9 @@
             font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
         }
         .lorem {
-            font-style: italic;
             text-align: justify;
-            color: #AAA;
+            font-size: 14px;
+            color: #000000;
         }
     </style>
 </head>
@@ -39,8 +39,8 @@
         <div class="leaflet-sidebar-tabs">
             <!-- top aligned tabs -->
             <ul role="tablist">
-                <li><a href="#list" role="tab"><i class="fa fa-list active"></i></a></li>
-                <li><a href="#faq" role="tab"><i class="fa fa-question"></i></a></li>
+                <li><a href="#list" role="tab"><i class="fa fa-search active"></i></a></li>
+                <li><a href="#info" role="tab"><i class="fa fa-book"></i></a></li>
             </ul>
 
             <!-- bottom aligned tabs -->
@@ -53,9 +53,14 @@
         <div class="leaflet-sidebar-content">
             <div class="leaflet-sidebar-pane" id="list">
                 <h1 class="leaflet-sidebar-header">
-                    Elenco dei comuni
+                    Quale comune vuoi visualizzare?
                     <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
                 </h1>
+                <p class="lorem">
+                in questa lista sono presenti i comuni del Trentino fino a 6.000 abitanti.<br/>
+                al clic su "vedi" appariranno le isodistanze a 30km dai rispettivi confini<br/>
+                sono cancellate dalle aree i comuni capoluogo.
+                </p>
                 <table id="table_comuni" class="display" style="width:100%">
                     <thead>
                         <tr>
@@ -66,14 +71,61 @@
                         </tr>
                     </thead>
                 </table>
-
+                <p class="lorem">
+                    le aree delle isodistanze sono colorate in giallo<br/>
+                    in rosso sono rappresentati i confini comunali<br/>
+                </p>
             </div>
-            <div class="leaflet-sidebar-pane" id="faq">
+            <div class="leaflet-sidebar-pane" id="info">
                 <h1 class="leaflet-sidebar-header">
-                    FAQ
+                    Informazioni
                     <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
                 </h1>
-                blablabla
+                <h2>Di cosa si tratta?</h2>
+                <p class="lorem">
+                    questo servizio nasce a seguito della 
+                    <a href="https://www.ufficiostampa.provincia.tn.it/Comunicati/Il-Trentino-in-zona-Arancione">comunicazione</a> 
+                    della Provincia Autonoma di Trento 
+(<a href="https://www.ufficiostampa.provincia.tn.it/Media/File-comunicati-stampa/Ordinanza-n.-69">ordinanza provinciale num. 69</a>) 
+in merito agli spostamenti in zona arancione nel periodo dal 6 al 30 aprile 2021 che prevede, per gli abitanti dei comuni fino a 6.000 abitanti di potersi spostare liberamente nel proprio comune e fino ad una distanza percorsa di massimo 30km.<br/>
+<br/>
+Qui una immagine del <a href="https://www.ufficiostampa.provincia.tn.it/content/download/179716/3089477/file/DPCM__6_aprile_-_vademecum_zona_arancioneBIS.pdf">vademecum</a> prodotto dall'ufficio stampa della PaT.<br/>
+<img src="images/spostamenti_area_arancione_pat_mini.jpg"/>
+                </p>
+                <h2>Come viene calcolato?</h2>
+                <p class="lorem">
+                    Il calcolo è fatto usando le funzioni di isodistanza a partire dal punto di intersezione fra il confine comunale le strade attraverso una chiamata alle API di OpenRouteService<br/>
+                    Il grafo stradale è basato su OpenStreetMap.
+                </p>
+                <h2>Cosa è una isodistanza?</h2>
+                <p class="lorem">
+                    con isodistanza si intende una linea tracciata su una mappa che collega i punti raggiungibili su un grafo stradale alla stessa distanza partendo da un punto di partenza.
+                </p>
+                <h2>Come mai alcune aree appaiono isolate?</h2>
+                <p class="lorem">
+                    L'ordinanza prevede che gli spostamenti non si possano fare all'interno dei capoluoghi di provincia, pertanto sono stati cancellate le aree dei rispettivi confini comunali.<br/>
+                    Raggiungendo le aree che appaiono isolate si è nella distanza dei 30km dal confine del comune scelto, solo che il percorso prevede il passaggio sull'area del comune capoluogo.
+                </p>
+                <h2>Come mai ci sono aree particolarmente estese ed altre no?</h2>
+                <p class="lorem">
+                    Come scritto precedentemente il calcolo è fatto a partire dai punti di interserzione dei confini comunali con il grafo stradale.<br/>
+                    I punti di partenza quindi sono condizionati dall'estensione territoriale, inoltre, più un confine è vicino a strade di rilevanza dello snodo del traffico e maggiore è la raggiungibilità.<br/>
+                    Non va poi dimenticato che in Trentino esistono molti comuni distribuiti su diverse aree territoriali non contigue fra di loro (enclave)
+                </p>
+                <h2>Tutto questo ha valore legale?</h2>
+                <p class="lorem">
+                    Lo scopo di questo strumento è solo di valore informativo.<br/>
+                    Il suggerimento è quello di leggere con attenzione l'ordinanza provinciale e di contattare le forze dell'ordine per avere conferem.<br/>
+                    In ogni caso il consiglio è di seguire la regola del buon senso e di spostarsi solo ne necessario.
+                </p>
+                <h2>Dove trovo maggiori informazioni</h2>
+                <p class="lorem">
+                    In questo <a href="https://de.straba.us/2021/03/09/i-30km-sul-grafo-stradale-trentino/">articolo</a> è raccontata tutta la storia di questo progetto
+                </p>
+                <h2>Che differenza c'è con il progetto 30Cappa</h2>
+                <p class="lorem">
+                    no
+                </p>
             </div>
         </div>
     </div>
