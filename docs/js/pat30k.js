@@ -2,20 +2,30 @@ function mappa(inidistat) {
     sidebar.close();
     map.removeLayer(comune);
     map.removeLayer(confine_comune);
+    map.removeLayer(confini_trento);
     comune = new L.geoJson();
     comune.addTo(map);
     confine_comune = new L.geoJson();
     confine_comune.addTo(map);
+    crosstn = 0;
+    crossbz = 0;
+    crossbl = 0;
     $.ajax({
             dataType: "json",
             url: "data/areas30km/" + inidistat + ".geojson",
             success: function(data) {
                 $(data.features).each(function(key, data) {
+                    crosstn = data.properties.CROSSTN;
+                    crossbz = data.properties.CROSSBZ;
+                    crossbl = data.properties.CROSSBL;
                     comune.addData(data);
                 });
                 comune.setStyle(stileComune);
                 map.fitBounds(comune.getBounds());
                 map.addLayer(comune);
+                if (crosstn == 1) {
+                    map.addLayer(confini_trento);
+                }
             },
             error: function() {
                 console.log("error");
@@ -78,7 +88,7 @@ var map = L.map('map', {
         [45.54675503088241, 8.640747070312502 ]]
     ]
 });
-map.setView([46.0199, 11.2198], 10);
+map.setView([46.150345757336574, 10.9368896484375], 10);
 map.zoomControl.setPosition('topright');
 
 L.tileLayer('https://tile.jawg.io/{z}/{x}/{y}.png?api-key=community', {
@@ -92,6 +102,7 @@ L.control.scale({ 'position': 'bottomright' }).addTo(map);
 var sidebar = L.control.sidebar({
     container: 'sidebar'
 }).addTo(map).open('list');
+
 const stileConfini = {
     "linecap": 'square',
     "lineJoin": "square",
@@ -103,6 +114,16 @@ const stileConfini = {
     "fill": false,
     "fillOpacity": 0
 };
+
+const stileConfiniCapoluoghi = {
+    "color": "ff7800",
+    "weight": 2,
+    "opacity": 1,
+    "fill": true,
+    'fillColor': '#ff6600',
+    "fillOpacity": 0.05
+};
+
 const stileConfiniComunali = {
     "color": "#FF0000",
     "weight": 1,
@@ -126,7 +147,7 @@ confine_comune.addTo(map);
 var confini_pat = new L.geoJson();
 confini_pat.addTo(map);
 var confini_trento = new L.geoJson();
-confini_trento.addTo(map);
+//confini_trento.addTo(map);
 
 
 $.ajax({
@@ -137,7 +158,6 @@ $.ajax({
                 confini_pat.addData(data);
             });
             confini_pat.setStyle(stileConfini);
-            //map.fitBounds(confini_pat.getBounds());
         },
         error: function() {
             console.log("error");
@@ -151,7 +171,7 @@ $.ajax({
             $(data.features).each(function(key, data) {
                 confini_trento.addData(data);
             });
-            confini_trento.setStyle(stileConfini);
-            map.removeLayer(confini_trento);
+            confini_trento.setStyle(stileConfiniCapoluoghi);
+            //map.removeLayer(confini_trento);
         }
     }) //.error(function(data) {console.log("errore")});
