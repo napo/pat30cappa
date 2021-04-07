@@ -21,6 +21,13 @@
    "SUPERFICIE (km²)": 33.55
  },
  {
+  "MAPPA": "022236_5124",
+  "COMUNE": "Altopiano della Vigolana",
+  "ABITANTI": 5124,
+  "PROV": "TN",
+  "SUPERFICIE (km²)": 45.03
+ },
+ {
    "MAPPA": "22237_543",
    "COMUNE": "Amblar-Don",
    "ABITANTI": 543,
@@ -40,6 +47,13 @@
    "ABITANTI": 4117,
    "PROV": "TN",
    "SUPERFICIE (km²)": 68.89
+ },
+ {
+  "MAPPA": "022009_5105",
+  "COMUNE": "Baselga di Pinè",
+  "ABITANTI": 5105,
+  "PROV": "TN",
+  "SUPERFICIE (km²)": 40.8
  },
  {
    "MAPPA": "22011_1483",
@@ -364,6 +378,13 @@
    "SUPERFICIE (km²)": 8.34
  },
  {
+  "MAPPA": "022079_5138",
+  "COMUNE": "Dro",
+  "ABITANTI": 5138,
+  "PROV": "TN",
+  "SUPERFICIE (km²)": 27
+ },
+ {
    "MAPPA": "22081_908",
    "COMUNE": "Fai della Paganella",
    "ABITANTI": 908,
@@ -455,6 +476,13 @@
    "SUPERFICIE (km²)": 26.31
  },
  {
+  "MAPPA": "022229_5308",
+  "COMUNE": "Ledro",
+  "ABITANTI": 5308,
+  "PROV": "TN",
+  "SUPERFICIE (km²)": 154.6
+ },
+ {
    "MAPPA": "22106_805",
    "COMUNE": "Livo",
    "ABITANTI": 805,
@@ -516,6 +544,13 @@
    "ABITANTI": 1608,
    "PROV": "TN",
    "SUPERFICIE (km²)": 48.85
+ },
+ {
+  "MAPPA": "022116_5574",
+  "COMUNE": "Mezzocorona",
+  "ABITANTI": 5574,
+  "PROV": "TN",
+  "SUPERFICIE (km²)": 25
  },
  {
    "MAPPA": "22118_2650",
@@ -973,6 +1008,13 @@
    "SUPERFICIE (km²)": 77.86
  },
  {
+  "MAPPA": "022248_5142",
+  "COMUNE": "Vallelaghi",
+  "ABITANTI": 5142,
+  "PROV": "TN",
+  "SUPERFICIE (km²)": 72.46
+ },
+ {
    "MAPPA": "22213_1824",
    "COMUNE": "Vermiglio",
    "ABITANTI": 1824,
@@ -1022,52 +1064,10 @@
    "SUPERFICIE (km²)": 35.75
  },
  {
-  "MAPPA": "022079_5138",
-  "COMUNE": "Dro",
-  "ABITANTI": 5138,
-  "PROV": "TN",
-  "SUPERFICIE (km²)": 27
- },
- {
-  "MAPPA": "022009_5105",
-  "COMUNE": "Baselga di Pinè",
-  "ABITANTI": 5105,
-  "PROV": "TN",
-  "SUPERFICIE (km²)": 40.8
- },
- {
   "MAPPA": "022245_5385",
   "COMUNE": "Primiero San Martino di Castrozza",
   "ABITANTI": 5385,
   "PROV": "TN",
   "SUPERFICIE (km²)": 200.7
- },
- {
-  "MAPPA": "022248_5142",
-  "COMUNE": "Vallelaghi",
-  "ABITANTI": 5142,
-  "PROV": "TN",
-  "SUPERFICIE (km²)": 72.46
- },
- {
-  "MAPPA": "022116_5574",
-  "COMUNE": "Mezzocorona",
-  "ABITANTI": 5574,
-  "PROV": "TN",
-  "SUPERFICIE (km²)": 25
- },
- {
-  "MAPPA": "022229_5308",
-  "COMUNE": "Ledro",
-  "ABITANTI": 5308,
-  "PROV": "TN",
-  "SUPERFICIE (km²)": 154.6
- },
- {
-  "MAPPA": "022236_5124",
-  "COMUNE": "Altopiano della Vigolana",
-  "ABITANTI": 5124,
-  "PROV": "TN",
-  "SUPERFICIE (km²)": 45.03
  }
  ]}

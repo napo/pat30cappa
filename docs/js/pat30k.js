@@ -3,6 +3,10 @@ function mappa(inidistat) {
     map.removeLayer(comune);
     map.removeLayer(confine_comune);
     map.removeLayer(confini_trento);
+    map.removeLayer(confini_bolzano);
+    map.removeLayer(confini_belluno);
+    map.removeLayer(confini_verona);
+
     comune = new L.geoJson();
     comune.addTo(map);
     confine_comune = new L.geoJson();
@@ -25,6 +29,15 @@ function mappa(inidistat) {
                 map.addLayer(comune);
                 if (crosstn == 1) {
                     map.addLayer(confini_trento);
+                }
+                if (crossbz == 1) {
+                    map.addLayer(confini_bolzano);
+                }
+                if (crossvr == 1) {
+                    map.addLayer(confini_verona);
+                }
+                if (crossbl == 1) {
+                    map.addLayer(confini_belluno);
                 }
             },
             error: function() {
@@ -147,7 +160,9 @@ confine_comune.addTo(map);
 var confini_pat = new L.geoJson();
 confini_pat.addTo(map);
 var confini_trento = new L.geoJson();
-//confini_trento.addTo(map);
+var confini_bolzano = new L.geoJson();
+var confini_verona = new L.geoJson();
+var confini_belluno = new L.geoJson();
 
 
 $.ajax({
@@ -174,4 +189,37 @@ $.ajax({
             confini_trento.setStyle(stileConfiniCapoluoghi);
             //map.removeLayer(confini_trento);
         }
-    }) //.error(function(data) {console.log("errore")});
+    }) 
+    $.ajax({
+        dataType: "json",
+        url: "data/confini_bolzano.geojson",
+        success: function(data) {
+            $(data.features).each(function(key, data) {
+                confini_bolzano.addData(data);
+            });
+            confini_bolzano.setStyle(stileConfiniCapoluoghi);
+            //map.removeLayer(confini_trento);
+        }
+    }) 
+    $.ajax({
+        dataType: "json",
+        url: "data/confini_verona.geojson",
+        success: function(data) {
+            $(data.features).each(function(key, data) {
+                confini_verona.addData(data);
+            });
+            confini_verona.setStyle(stileConfiniCapoluoghi);
+            //map.removeLayer(confini_trento);
+        }
+    }) 
+    $.ajax({
+        dataType: "json",
+        url: "data/confini_belluno.geojson",
+        success: function(data) {
+            $(data.features).each(function(key, data) {
+                confini_belluno.addData(data);
+            });
+            confini_belluno.setStyle(stileConfiniCapoluoghi);
+            //map.removeLayer(confini_trento);
+        }
+    }) 
