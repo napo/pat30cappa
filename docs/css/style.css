@@ -9,6 +9,21 @@ body,
     height: 100%;
     font: 10pt Inter, Arial, Helvetica, sans-serif;
 }
+
+#header {
+    margin: auto;
+    height: 20px;
+    padding: auto;
+    padding-right: 1%;
+    line-height: 20px;
+    font-size: 14pt;
+    color: #fff;
+    background-color: #fe9b02;
+    text-align: right;
+}
+
+
+}
 #titolo {
     background-color: #fe9b02;
     position: absolute;
@@ -25,8 +40,7 @@ body,
     text-align: : center;
     line-height: 40px;
     border: 1px solid;
-  }
-
+}
 .lorem {
     text-align: justify;
     font-size: 14px;
