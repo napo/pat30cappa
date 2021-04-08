@@ -23,6 +23,7 @@ function mappa(inidistat) {
     crossbz = 0;
     crossbl = 0;
     crossvr = 0;
+    nomecomune = "isodistanze a 30km per i comuni fino a 6000 abitanti in Trentino";
     $.ajax({
             dataType: "json",
             url: "data/areas30km/" + inidistat + ".geojson",
@@ -32,6 +33,7 @@ function mappa(inidistat) {
                     crossbz = data.properties.CROSSBZ;
                     crossbl = data.properties.CROSSBL;
                     crossvr = data.properties.CROSSVR;
+                    nomecomune = data.properties.COMUNE;
                     comune.addData(data);
                 });
                 comune.setStyle(stileComune);
@@ -50,6 +52,7 @@ function mappa(inidistat) {
                 if (crossbl == 1) {
                     map.addLayer(confini_belluno);
                 }
+                $('#labelcomune').text("comune di " + nomecomune + " - isodistanze a 30km dal confine");
             },
             error: function() {
                 console.log("error");
