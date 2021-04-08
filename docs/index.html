@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <title>Le isodistanze a 30km in Trentino</title>
     <meta charset="utf-8">
@@ -85,9 +86,7 @@
                     </thead>
                 </table>
                 <p class="lorem">
-                    le aree delle isodistanze sono colorate in arancione<br/> 
-                    i confini del comune selezionato in rosso<br/>
-                    i confini della provincia autonoma di Trento in viola e tratteggiati
+                    le aree delle isodistanze sono colorate in arancione<br/> i confini del comune selezionato in rosso<br/> i confini della provincia autonoma di Trento in viola e tratteggiati
                 </p>
             </div>
             <div class="leaflet-sidebar-pane" id="info">
@@ -108,7 +107,8 @@
                 </p>
                 <h2>Come viene calcolato?</h2>
                 <p class="lorem">
-                    Il calcolo è fatto usando le funzioni di isodistanza a partire dal punto di intersezione fra il confine comunale le strade attraverso una chiamata alle <a href="https://openrouteservice.org/dev/#/api-docs/isochrones/get">API</a> di <a href="https://openrouteservice.org/">OpenRouteService</a><br/> Il grafo stradale è basato su OpenStreetMap.
+                    Il calcolo è fatto usando le funzioni di isodistanza a partire dal punto di intersezione fra il confine comunale le strade attraverso una chiamata alle <a href="https://openrouteservice.org/dev/#/api-docs/isochrones/get">API</a> di
+                    <a href="https://openrouteservice.org/">OpenRouteService</a><br/> Il grafo stradale è basato su OpenStreetMap.
                 </p>
                 <h2>Cosa è una isodistanza?</h2>
                 <p class="lorem">
@@ -126,8 +126,7 @@
                 </p>
                 <h2>Da dove vengono i dati?</h2>
                 <p class="lorem">
-                    I dati dei confini amministrativi vengono da ISTAT, così come quelli della popolazione entrambi alla data del primo gennaio 2020.<br/>
-                    I dati del grafo stradale su cui sono stati fatti i calcoli invece da OpenStreetMap.
+                    I dati dei confini amministrativi vengono da ISTAT, così come quelli della popolazione entrambi alla data del primo gennaio 2020.<br/> I dati del grafo stradale su cui sono stati fatti i calcoli invece da OpenStreetMap.
                 </p>
                 <h2>Tutto questo ha valore legale?</h2>
                 <p class="lorem">
@@ -166,6 +165,31 @@
     <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
     <script src="https://yigityuce.github.io/Leaflet.Control.Custom/Leaflet.Control.Custom.js"></script>
     <script src="js/pat30k.js"></script>
+
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "//stats.labmod.org/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '9']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.src = u + 'matomo.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+
+
 </body>
 
 </html>
