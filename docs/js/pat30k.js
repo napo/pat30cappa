@@ -7,7 +7,9 @@ function onEachFeature(feature, layer) {
 }
 
 function mappa(inidistat) {
-    //sidebar.close();
+    if (screen.width <= 500) {
+        sidebar.close();
+    }
     map.removeLayer(comune);
     map.removeLayer(confine_comune);
     map.removeLayer(confini_trento);
