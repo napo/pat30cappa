@@ -52,7 +52,7 @@ function mappa(inidistat) {
                 if (crossbl == 1) {
                     map.addLayer(confini_belluno);
                 }
-                $('#labelcomune').text("comune di " + nomecomune + " - isodistanze a 30km dal confine");
+                $('#labelcomune').text("comune di " + nomecomune + " (TN) - isodistanze a 30km dal confine");
             },
             error: function() {
                 console.log("error");
