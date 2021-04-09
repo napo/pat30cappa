@@ -26,6 +26,7 @@ function mappa(inidistat) {
     crossbl = 0;
     crossvr = 0;
     nomecomune = "isodistanze a 30km per i comuni fino a 6000 abitanti in Trentino";
+    cambiaurl = true;
     $.ajax({
             dataType: "json",
             url: "data/areas30km/" + inidistat + ".geojson",
@@ -55,15 +56,20 @@ function mappa(inidistat) {
                     map.addLayer(confini_belluno);
                 }
                 $('#labelcomune').text("comune di " + nomecomune + " (TN) - isodistanze a 30km dal confine");
+                cambiaurl = inidistat;
             },
             error: function() {
-                console.log("error");
+                console.log("id stat errato");
+                cambiaurl = false
             }
         }) //.error(function(data) {console.log("errore")});
-    $.ajax({
-        dataType: "json",
-        url: "https://tanto.carto.com:443/api/v2/sql?format=GeoJSON&q=select%20*%20from%20public.comuni_4326%20where%20public.comuni_4326.istat%3D%27" + inidistat + "%27",
-        success: function(data) {
+        if (cambiaurl) {
+            window.location.hash = inidistat;          
+        }   
+        $.ajax({
+            dataType: "json",
+            url: "https://tanto.carto.com:443/api/v2/sql?format=GeoJSON&q=select%20*%20from%20public.comuni_4326%20where%20public.comuni_4326.istat%3D%27" + inidistat + "%27",
+            success: function(data) {
             $(data.features).each(function(key, data) {
                 confine_comune.addData(data);
             });
@@ -71,9 +77,10 @@ function mappa(inidistat) {
             map.addLayer(confine_comune);
         },
         error: function() {
-            console.log("error");
+            console.log("id istat errato");
         }
     })
+
 }
 
 $(document).ready(function() {
@@ -244,3 +251,10 @@ $.ajax({
         //map.removeLayer(confini_trento);
     }
 })
+
+var idcomune = $(location).prop('hash').substr(1);
+
+if (idcomune != "") {
+    mappa(idcomune)
+}
+
