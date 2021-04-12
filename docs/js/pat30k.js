@@ -63,16 +63,17 @@ function mappa(inidistat) {
                 cambiaurl = false
             }
         }) //.error(function(data) {console.log("errore")});
-        if (cambiaurl) {
-            window.location.hash = inidistat;          
-        }   
-        $.ajax({
-            dataType: "json",
-            url: "https://tanto.carto.com:443/api/v2/sql?format=GeoJSON&q=select%20*%20from%20public.comuni_4326%20where%20public.comuni_4326.istat%3D%27" + inidistat + "%27",
-            success: function(data) {
+    if (cambiaurl) {
+        window.location.hash = inidistat;
+    }
+    $.ajax({
+        dataType: "json",
+        url: "data/borders/" + inidistat + ".geojson",
+        success: function(data) {
             $(data.features).each(function(key, data) {
                 confine_comune.addData(data);
             });
+            map.removeLayer(confine_comune);
             confine_comune.setStyle(stileConfiniComunali);
             map.addLayer(confine_comune);
         },
@@ -257,4 +258,3 @@ var idcomune = $(location).prop('hash').substr(1);
 if (idcomune != "") {
     mappa(idcomune)
 }
-
