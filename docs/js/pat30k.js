@@ -133,7 +133,7 @@ var map = L.map('map', {
 map.setView([46.150345757336574, 10.9368896484375], 10);
 map.zoomControl.setPosition('topright');
 
-L.tileLayer('https://tile.jawg.io/{z}/{x}/{y}.png?api-key=community', {
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',{
     maxZoom: 18,
     attribution: 'Tiles courtesy of [[https://www.jawg.io/|jawgmaps]] - Map data [[http://osm.org/copyright/|&copy; OpenStreetMap contributors]], under ODbL.'
 }).addTo(map);
